@@ -1,3 +1,9 @@
+import Login from './login/index'
+
 export default function Home() {
-  return <h1>Hello Authentication Project! arismonx</h1>;
+  return(
+    <div>
+      <Login/>
+    </div>
+    );
 }
